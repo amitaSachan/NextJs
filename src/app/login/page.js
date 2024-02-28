@@ -6,11 +6,11 @@ const login=()=>{
     return(
         <>
         <h1>Login Page</h1>
-        <button onClick={()=>router.push("/")}>Go to Home page</button>
+        {/* <button onClick={()=>router.push("/")}>Go to Home page</button>
         <br /><br />
         <Link href="/login/loginteacher">Go to Teacher login page</Link>
         <br /><br />
-        <Link href="/login/loginstudent">Go to Student login page</Link>
+        <Link href="/login/loginstudent">Go to Student login page</Link> */}
         </>
     )
 }
