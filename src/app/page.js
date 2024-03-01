@@ -14,10 +14,10 @@ export default function Home() {
   }
   return (
     <main>
-      <h2>Welcome to next Js !!! Routing</h2>   
-      <Link href="/login">Go to login page</Link>
+      <h2>API calling</h2>   
+      <Link href="/productlist">Go to Client Component Page</Link>
       <br />
-      <Link href="/aboutUs">Go to About Us page</Link>
+      <Link href="/productlistservercomponent">Go to Server Component Page</Link>
       <hr />
       <InnerComponent />
     </main>
