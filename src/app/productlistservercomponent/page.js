@@ -1,3 +1,5 @@
+import ButtonComponent from "./buttonComponent";
+
 const getProduct = async () => {
   const response = await fetch("https://dummyjson.com/products");
   const data = await response.json();
@@ -11,7 +13,10 @@ const ServerComponent = async () => {
     <>
       <h1>Server Component Api Calling</h1>
       {productlistt.map((item) => (
-        <p>{item.title}</p>
+       <div> <p>{item.id}-{item.title}</p>
+       {/* ServerComponent with client component */}
+       <ButtonComponent price={item.price} />
+       </div>
       ))}
     </>
   );
