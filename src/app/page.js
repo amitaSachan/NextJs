@@ -3,17 +3,10 @@ export default function Home() {
   return (
     <main>
     
-      <h2> generate meta data we are using when we want more dynamic metadata like title and dexcription in seo. We can also use this when, we are creating meta data dynamically  </h2>
+      <h2>Script Component</h2>
+      <p>This Component is different from html script tage because html script tag is loaded in whole website but if we want to use some external libaraies and that libaray is consuming by one or two page then it will be good beacuse it reduces the lodaing time and make it efficent.</p>
    
     </main>
   );
 }
-export function generateMetadata()
-{
-  return(
-    {
-      title:"For ecommerce",
-      description:"any imortabat nfjjidfjdf"
-    }
-  )
-}
+
